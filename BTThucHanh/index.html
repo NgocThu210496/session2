@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf8">
+    <title>form va table</title>
+</head>
+
+<body>
+    <h2>Create Account</h2>
+    <form method="post" action="">
+        <fieldset width="80%">
+            <legend>Registration Information</legend>
+            <label for="first_name"><b>First name *:</b></label>
+            <input type="text" name="firstname" placeholder="Enter Your First Name">
+            <label for="first_name"><b>Last name *:</b></label>
+            <input type="text" name="lastname" placeholder="Enter Your Last Name"><br>
+            <label for="email"><b>Email*:</b></label>
+            <input type="text" name="email" placeholder="Enter Your Emali">
+            <label for="phone"><b>Phone*:</b></label>
+            <input type="text" name="phone" placeholder="Enter Your Phone Number"><br>
+            <label for="password"><b>Password*:</b></label>
+            <input type="password" name="password" id="pass" placeholder="Enter Your Password">
+            <label for="password"><b>Comfirm Password*:</b></label>
+            <input type="password" name="password" id="pass" placeholder="Enter Your Password again"><br>
+        </fieldset>
+        <fieldset>
+            <legend>Peronal Information</legend>
+            <label for="gender"><b>Gender:</b></label>
+            <input type="radio" id="male" value="male" name="gender" checked>
+            <label for="gender"><b>Made</b></label>
+            <input type="radio" id="female" value="female" name="gender">
+            <label for="gender"><b>Female</b></label>
+            <label for="hobbies"><b>Hobbies:</b></label>
+            <input type="checkbox">Music
+            <input type="checkbox">Sports
+            <input type="checkbox">Travel
+            <input type="checkbox">Movies<br>
+            <label for="source"><b>Source of Income</b></label>
+            <select name="source">
+                <option>Employed</option>
+                <option>Employed2</option>
+                <option>Employed3</option>
+            </select>
+            <label for="Income"><b>Income</b></label>
+            <input type="range" name="income" min="1" max="10"><br>
+            <label for="ahe"><b>Age</b></label>
+            <input type="number"><br>
+            <label for="file"><b>Profile Picture</b></label>
+            <input type="file"><br>
+            <label for="birthday"><b>Birthday:</b></label>
+            <input type="date" name="date">
+            <label for="adress"><b>Adress:</b></label>
+            <input type="text"><br>
+            <label for="bio"><b>Bio</b></label>
+            <textarea></textarea>
+        </fieldset>
+        <p>
+            <input type="submit" value="Create">
+            <input type="reset" value="Reset">
+        </p>
+    </form>
+</body>
+
+</html>
